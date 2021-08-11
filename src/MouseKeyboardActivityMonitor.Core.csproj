@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>MouseKeyboardActivityMonitor</RootNamespace>
+    <ApplicationIcon />
+    <StartupObject />
+    <Version>3.0.1</Version>
+    <AssemblyVersion>3.0.1.0</AssemblyVersion>
+    <Description>This class library contains components to monitor mouse and keyboard activities and provides appropriate events.</Description>
+    <Company>Mouse and Keyboard Hooks .NET</Company>
+    <Product>Mouse and Keyboard Hooks .NET</Product>
+    <Copyright>Open Source under Ms-PL License.</Copyright>
+    <LangVersion>8.0</LangVersion>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>TaaghcheCert.snk</AssemblyOriginatorKeyFile>
+    <PublicSign>true</PublicSign>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+</Project>
